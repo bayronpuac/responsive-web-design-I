@@ -186,6 +186,7 @@ footer{
     .title{
         width: 100%;
         /* border: 1px solid red; */
+        padding: 50px;
     }
   }
 /**************************MOBILE VIEW STARTS HERE*************************/
