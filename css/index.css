@@ -188,7 +188,75 @@ footer{
         /* border: 1px solid red; */
     }
   }
+/**************************MOBILE VIEW STARTS HERE*************************/
 
+
+@media screen and (max-width: 500px){
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        /* border-bottom: 1px solid black; */
+    }
+    nav a{
+        display: flex;
+        /* border: 1px solid black; */
+        justify-content: space-evenly;
+        padding: 15px;
+        border-bottom: 1px solid black;
+        width: 100%;
+    }
+
+    .navTop{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        /* border: 1px solid black; */
+        width: 100%;
+        padding: 20px;
+
+    }
+
+    .logo{
+        width: 50%;
+        /* border: 1px solid orange; */
+        padding: 20px 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .top-content {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    
+    .top-content .features{
+        padding: 20px 0;
+        /* border: 1px solid black; */
+    }
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* border: 1px solid black; */
+    }
+    .bottom-content .services{
+        /* border: 1px solid red; */
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .bottom-content .products{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .bottom-content .vision{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+}
 
 
 
